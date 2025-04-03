@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Prata';
+  src: local('Prata Regular'), local('Prata-Regular'),
+    url('./fonts/Prata-Regular.woff2') format('woff2'),
+    url('./fonts/Prata-Regular.woff') format('woff');
+  font-weight: 400;
+}
+* {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+a,
+a:hover,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-size: inherit;
+  font-weight: inherit;
+}
+ul,
+ul li {
+  list-style: none;
+}
+img {
+  vertical-align: top;
+}
+button,
+input[type='submit'] {
+  display: inline-block;
+  box-shadow: none;
+  background-color: transparent;
+  background: none;
+  cursor: pointer;
+}
+
+input:focus,
+input:active,
+button:focus,
+button:active {
+  outline: none;
+}
+label {
+  cursor: pointer;
+}
+img,
+svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: 'Arial', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.5;
+  color: #fff;
+}
+.container {
+  max-width: 1632px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
